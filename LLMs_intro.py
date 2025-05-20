@@ -89,3 +89,7 @@ class MultiHeadAttention(nn.model):
         return output
 
 # 3. feed forward MLP
+class FeedForward(nn.Module):
+    output = torch.cat(
+        
+    )
